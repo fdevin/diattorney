@@ -1,0 +1,204 @@
+/*===== Importar Base =====*/
+@import 'base';
+/*===== Estilo Homepage =====*/
+.dell {
+    &-hero {
+        background: linear-gradient(90deg, #ECE9E6 0%, #F8F8F8 100%);
+        @extend .py-5;
+        &-owl {
+            &-row {
+                @extend .justify-content-lg-center;
+            }
+            &-col {
+                &-1 {
+                    h2 {
+                        color: var(--text);
+                        font-weight: 600;
+                        font-size: 36px;
+                        line-height: 48px;
+                        @extend .mb-4;
+                    }
+                }
+                &-2 {
+                    @extend .offset-lg-1;
+                    .dell-player {
+                        filter: drop-shadow(0px 10px 27px rgba(128, 128, 128, 0.25));
+                    }
+                }
+            }
+            &-nav {
+                @extend .pl-lg-5;
+                @extend .position-relative;
+                z-index: 99999;
+                @include only-pc() {
+                    margin-top: -1.35rem;
+                }
+            }
+            &-prev, &-next {
+                border: none !important;
+                outline: none !important;
+                border-radius: 50%;
+                @extend .p-0;
+            }
+            &-counter {
+                @extend .d-inline-block;
+                @extend .text-center;
+                @extend .mx-3;
+                strong {
+                    color: var(--text);
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .owl {
+            &-dots {
+                display: none !important;
+            }
+        }
+    }
+    &-disability {
+        @extend .py-5;
+        @include only-pc() {
+            padding: 140px 0 !important;
+        }
+        &-row {
+            @extend .justify-content-lg-center;
+        }
+        &-col {
+            &-1 {
+                @extend .text-center;
+                @extend .mb-5;
+            }
+            &-2 {
+                .dell-hr-1 {
+                    @extend .w-100;
+                }
+                .nav {
+                    &-link {
+                        @extend .position-relative;
+                        @extend .pr-5;
+                        border-radius: 12px;
+                        margin-bottom: 12px;
+                        strong {
+                            color: #0F2E2C;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                        &-icon {
+                            margin-right: 12px;
+                        }
+                        &-next {
+                            position: absolute;
+                            right: 1rem;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                        }
+                        &.active {
+                            background: #E3E8E7 !important;
+                        }
+                        &:last-of-type {
+                            @extend .mb-0;
+                        }
+                    }
+                    &-title {
+                        color: var(--text);
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 28px;
+                        @extend .mb-3;
+                    }
+                }
+            }
+            &-3 {
+                @extend .offset-lg-1;
+                .dell {
+                    &-player {
+                        filter: drop-shadow(20px 8px 54px rgba(41, 41, 41, 0.25));
+                        @extend .mb-5;
+                    }
+                }
+                p {
+                    color: #455453;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    &-community {
+        background: linear-gradient(360deg, #FFFFFF 5.95%, rgba(255, 255, 255, 0) 100%), url(../img/community.jpg);
+        @extend .pt-5;
+        @include only-pc() {
+            padding: 259px 0 0 !important;
+        }
+        &-content {
+            @extend .pb-5;
+            @include only-pc() {
+                padding: 0 0 140px !important;
+            }
+        }
+        &-row {
+            @extend .justify-content-lg-center;
+        }
+        &-col {
+            &-1 {
+                @extend .text-center;
+                @extend .mb-5;
+            }
+            &-2 {
+                .dell-tabs-icon {
+                    @extend .justify-content-lg-center;
+                }
+                .tab-content {
+                    @extend .mt-5;
+                    @extend .pt-5;
+                    &-title {
+                        color: var(--text);
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 32px;
+                        @extend .mb-5;
+                        @extend .pb-3;
+                        @extend .text-center;
+                    }
+                    &-actions {
+                        @extend .text-center;
+                        @extend .mt-5;
+                    }
+                }
+            }
+        }
+    }
+    &-learnhow {
+        @extend .py-5;
+        &-row {
+            @extend .justify-content-lg-center;
+        }
+        &-col {
+            &-1 {
+                img {
+                    filter: drop-shadow(-20px 8px 54px rgba(41, 41, 41, 0.25));
+                }
+            }
+            &-2 {
+                color: var(--text);
+                h3 {
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                    @extend .mb-4;
+                }
+                p {
+                    color: #455453;
+                    font-size: 16px;
+                    line-height: 24px;
+                    @extend .mb-5;
+                }
+            }
+        }
+    }
+}

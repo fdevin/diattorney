@@ -1,0 +1,39 @@
+// Colores
+:root {
+    --primary-color: #356F6C;
+    --secondary-color: #D0AF71;
+    --supporting: #F1F4F4;
+    --text: #152827;
+    --blue: #2D7EDB;
+}
+// Responsive
+@mixin only-pc {
+    @media (min-width:992px) {
+        @content;
+    }
+}
+@mixin only-pc-xl {
+    @media (min-width:1200px) {
+        @content;
+    }
+}
+@mixin only-mobile {
+    @media (max-width:767px) {
+        @content;
+    }
+}
+@mixin only-tablet {
+    @media (min-width:768px) and (max-width:991px) {
+        @content;
+    }
+}
+@mixin mobile-tablet {
+    @media (max-width:991px) {
+        @content;
+    }
+}
+@mixin tablet-pc {
+    @media (min-width:768px) {
+        @content;
+    }
+}

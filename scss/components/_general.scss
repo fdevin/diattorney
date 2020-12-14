@@ -1,0 +1,78 @@
+@import 'variables';
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    transition: all .3s;
+}
+strong {
+    font-weight: 600;
+}
+.container {
+    @include only-pc-xl() {
+        max-width: 1440px !important;
+    }
+}
+.col-lg-20 {
+    padding: 0 15px;
+    @include only-pc() {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    @include mobile-tablet() {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.wp-pagenavi {
+    clear: both;
+    a, span {
+        text-decoration: none;
+        border: 1px solid #BFBFBF;
+        padding: 3px 5px;
+        margin: 2px;
+    }
+    a:hover, span.current {
+        border-color: #000;
+    }
+    span {
+        &.current {
+            font-weight: bold;
+        }
+    }
+    /* Custom style */
+    @extend .text-center;
+    @extend .text-lg-right;
+    a, span {
+        @extend .d-inline-block;
+        @extend .text-center;
+        background: rgba(237, 237, 237, 0.56);
+        color: #475FB6;
+        border: 1px solid #E5E5E5;
+        border-radius: 4px;
+        width: 2rem;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: capitalize;
+        &:hover, &:focus {
+            border-color: #E5E5E5;
+        }
+        &.current, &.last {
+            background: #475FB6 !important;
+            border-color: #475FB6 !important;
+            color: white !important;
+        }
+        &.extend {
+            background: white !important;
+            border-color: white !important;
+        }
+    }
+}
