@@ -14,7 +14,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/home.min.css">
     </head>
     <body>
@@ -345,6 +345,281 @@
                         <h3>Learn How Your Disability Company Acts and Thinks</h3>
                         <p>You can greatly increase your chances of long term disability insurance benefit approval by learning all about the claim handling tactics of your disability insurance company.  We have tons of helpful information available and we are constantly updating our site on a weekly basis.</p>
                         <a href="#" class="dell-btn dell-btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dell-explore">
+            <div class="container dell-explore-container">
+                <div class="row dell-explore-row">
+                    <div class="col-lg-5 dell-explore-col-1">
+                        <h3>Explore How Disability Companies Evaluate Your Occupation</h3>
+                        <p>Disability insurance companies are notorious for minimizing your occupational duties. This technique is used as a tool to prove that you can perform duties which differ from the job you actually performed while working. Our lawyers have represented long term disability insurance claimants in every occupation.</p>
+                        <a href="#" class="dell-btn dell-btn-primary">Learn More</a>
+                    </div>
+                    <div class="col-lg-5 dell-explore-col-2">
+                        <ul>
+                            <li>
+                                <img src="img/avatars/explore-1.png" alt="" width="80" />
+                            </li>
+                            <li>
+                                <img src="img/avatars/explore-2.png" alt="" width="100" />
+                            </li>
+                            <li>
+                                <img src="img/avatars/explore-3.png" alt="" width="120" />
+                            </li>
+                            <li>
+                                <img src="img/avatars/explore-4.png" alt="" width="200" />
+                            </li>
+                            <li>
+                                <img src="img/avatars/explore-5.png" alt="" width="100" />
+                            </li>
+                            <li>
+                                <img src="img/avatars/explore-6.png" alt="" width="160" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dell-learnhow dell-discover">
+            <div class="container dell-learnhow-container">
+                <div class="row dell-learnhow-row">
+                    <div class="col-lg-5 dell-learnhow-col-1">
+                        <img src="img/discover.png" alt="" />
+                    </div>
+                    <div class="col-lg-5 dell-learnhow-col-2">
+                        <h3>Discover How your Disabling Condition Should Be Presented to the Disability Company</h3>
+                        <p>Aliquam vitae nulla massa amet, pellentesque ac. Euismod fames pharetra turpis sed purus in. Mauris cursus ut iaculis pulvinar sed eros. Eu consequat justo, integer aenean porttitor sagittis massa ipsum. Cursus ultrices neque, viverra dui consequat.</p>
+                        <a href="#" class="dell-btn dell-btn-primary">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dell-clients">
+            <div class="container dell-clients-container">
+                <div class="row dell-clients-row">
+                    <div class="col-lg-10 dell-clients-col-1">
+                        <h2 class="dell-title">Reviews from Our Clients</h2>
+                        <div class="owl-carousel dell-clients-owl">
+                            <?php include('includes/components/card.php'); ?>
+                            <?php include('includes/components/card.php'); ?>
+                            <?php include('includes/components/card.php'); ?>
+                            <?php include('includes/components/card.php'); ?>
+                            <?php include('includes/components/card.php'); ?>
+                        </div>
+                        <div class="dell-clients-action">
+                            <a href="#" class="dell-btn dell-btn-outline-primary">View All Reviews (420)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dell-logos">
+            <div class="container dell-logos-container">
+                <div class="row dell-logos-row">
+                    <div class="col-12 dell-logos-col">
+                        <ul>
+                            <li>
+                                <img src="img/logos/BBB_Accredited_Business_A_Rating 2.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="img/logos/AvvoRating-1.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="img/logos/best-law-firms.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="img/logos/google-review-logo.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="img/logos/Martindale_AV_300.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="img/logos/martindale-client-platinum-recon-2020.png" alt="" />
+                            </li>
+                            <li>
+                                <img src="img/logos/SuperLawyersBadgeSquareGray.png" alt="" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dell-consultation">
+            <div class="container dell-consultation-container">
+                <div class="row dell-consultation-row">
+                    <div class="col-lg-5 dell-consultation-col-1">
+                        <?php include('includes/components/request.php'); ?>
+                    </div>
+                    <div class="col-lg-6 dell-consultation-col-2">
+                        <?php include('includes/components/player.php'); ?>
+                        <h3 class="dell-consultation-title">How We Help Disability Claimants</h3>
+                        <div class="accordion dell-accordion" id="accordion-1">
+                            <div class="card">
+                                <div class="card-header" id="heading-1">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#item-1" aria-expanded="false" aria-controls="item-1">
+                                            <img src="img/icons/denial.svg" alt="icon" width="32" class="dell-accordion-icon" />
+                                            <strong>Disability Benefit Denial Options</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="item-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordion-1">
+                                    <div class="card-body">
+                                        <h4>
+                                            <img src="img/icons/pen.svg" alt="icon" width="24" />
+                                            <strong>Apply for Benefits</strong>
+                                        </h4>
+                                        <div class="card-body-content">
+                                            <span>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</span><br /><br />
+                                            <a href="#">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading-2">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#item-2" aria-expanded="false" aria-controls="item-2">
+                                            <img src="img/icons/protection.svg" alt="icon" width="32" class="dell-accordion-icon" />
+                                            <strong>Protect Your Benefits</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="item-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion-1">
+                                    <div class="card-body">
+                                        <h4>
+                                            <img src="img/icons/pen.svg" alt="icon" width="24" />
+                                            <strong>Apply for Benefits</strong>
+                                        </h4>
+                                        <div class="card-body-content">
+                                            <span>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</span><br /><br />
+                                            <a href="#">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading-3">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#item-3" aria-expanded="false" aria-controls="item-3">
+                                            <img src="img/icons/other.svg" alt="icon" width="32" class="dell-accordion-icon" />
+                                            <strong>Other Insurance Claims</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="item-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion-1">
+                                    <div class="card-body">
+                                        <h4>
+                                            <img src="img/icons/pen.svg" alt="icon" width="24" />
+                                            <strong>Apply for Benefits</strong>
+                                        </h4>
+                                        <div class="card-body-content">
+                                            <span>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</span><br /><br />
+                                            <a href="#">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="dell-hr-1" />
+                        <h3 class="dell-consultation-title">Questions About Hiring Us</h3>
+                        <div class="accordion dell-accordion" id="accordion-2">
+                            <div class="card">
+                                <div class="card-header" id="questions-heading-1">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#questions-item-1" aria-expanded="false" aria-controls="questions-item-1">
+                                            <strong>Who are Attorneys Dell & Schaefer?</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="questions-item-1" class="collapse" aria-labelledby="questions-heading-1" data-parent="#accordion-2">
+                                    <div class="card-body">
+                                        <span>Yes. We are a national disability insurance law firm that is available to represent you regardless of where you live in the United States. We have partner lawyers in every state and we have filed lawsuits in most federal courts nationwide. Our disability lawyers represent disability claimants at all stages of a claim for disability insurance benefits. There is nothing that our lawyers have not seen in the disability insurance world.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="questions-heading-2">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#questions-item-2" aria-expanded="false" aria-controls="questions-item-2">
+                                            <strong>Who we help?</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="questions-item-2" class="collapse" aria-labelledby="questions-heading-2" data-parent="#accordion-2">
+                                    <div class="card-body">
+                                        <span>Yes. We are a national disability insurance law firm that is available to represent you regardless of where you live in the United States. We have partner lawyers in every state and we have filed lawsuits in most federal courts nationwide. Our disability lawyers represent disability claimants at all stages of a claim for disability insurance benefits. There is nothing that our lawyers have not seen in the disability insurance world.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="questions-heading-3">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#questions-item-3" aria-expanded="false" aria-controls="questions-item-3">
+                                            <strong>Do you work in my state?</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="questions-item-3" class="collapse" aria-labelledby="questions-heading-3" data-parent="#accordion-2">
+                                    <div class="card-body">
+                                        <span>Yes. We are a national disability insurance law firm that is available to represent you regardless of where you live in the United States. We have partner lawyers in every state and we have filed lawsuits in most federal courts nationwide. Our disability lawyers represent disability claimants at all stages of a claim for disability insurance benefits. There is nothing that our lawyers have not seen in the disability insurance world.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="questions-heading-4">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#questions-item-4" aria-expanded="false" aria-controls="questions-item-4">
+                                            <strong>What are your fees?</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="questions-item-4" class="collapse" aria-labelledby="questions-heading-4" data-parent="#accordion-2">
+                                    <div class="card-body">
+                                        <span>Yes. We are a national disability insurance law firm that is available to represent you regardless of where you live in the United States. We have partner lawyers in every state and we have filed lawsuits in most federal courts nationwide. Our disability lawyers represent disability claimants at all stages of a claim for disability insurance benefits. There is nothing that our lawyers have not seen in the disability insurance world.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="questions-heading-5">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#questions-item-5" aria-expanded="false" aria-controls="questions-item-5">
+                                            <strong>Do I have to come to your office?</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="questions-item-5" class="collapse" aria-labelledby="questions-heading-5" data-parent="#accordion-2">
+                                    <div class="card-body">
+                                        <span>Yes. We are a national disability insurance law firm that is available to represent you regardless of where you live in the United States. We have partner lawyers in every state and we have filed lawsuits in most federal courts nationwide. Our disability lawyers represent disability claimants at all stages of a claim for disability insurance benefits. There is nothing that our lawyers have not seen in the disability insurance world.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="questions-heading-6">
+                                    <h2>
+                                        <button class="btn" type="button" data-toggle="collapse" data-target="#questions-item-6" aria-expanded="false" aria-controls="questions-item-6">
+                                            <strong>How can I contact you?</strong>
+                                            <img src="img/icons/dropdown-close.svg" alt="icon" class="dell-accordion-arrow" />
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="questions-item-6" class="collapse" aria-labelledby="questions-heading-6" data-parent="#accordion-2">
+                                    <div class="card-body">
+                                        <span>Yes. We are a national disability insurance law firm that is available to represent you regardless of where you live in the United States. We have partner lawyers in every state and we have filed lawsuits in most federal courts nationwide. Our disability lawyers represent disability claimants at all stages of a claim for disability insurance benefits. There is nothing that our lawyers have not seen in the disability insurance world.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

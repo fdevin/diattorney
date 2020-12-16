@@ -18,4 +18,23 @@ $(document).ready(function() {
         var item      = event.item.index + 1;
        $('#counter').html(item+" / "+items)
     }
+    $('.dell-clients-owl').owlCarousel({
+        margin: 24,
+        responsive : {
+            0 : {
+                items: 1,
+                dots: true
+            },
+            768 : {
+                items: 2,
+                dots: true
+            },
+            992 : {
+                items: 3,
+                dots: false,
+                nav: true,
+                navText: ["<img src='img/icons/owl-back.svg' width='48' alt='Prev' />","<img src='img/icons/owl-next.svg' width='48' alt='Next' />"]
+            }
+        }
+    });
 });
